@@ -3,26 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Website</title>
+  <title>Heart Disease Classification</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background: linear-gradient(to right, #4b6cb7, #182848);
+      color: #fff;
     }
     .container {
       max-width: 800px;
-      margin: 50px auto;
+      margin: 100px auto;
       text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
     }
     .btn {
       display: inline-block;
-      padding: 10px 20px;
+      padding: 10px 30px;
       margin: 10px;
       background-color: #007bff;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
     }
     .btn:hover {
       background-color: #0056b3;
@@ -31,11 +48,15 @@
 </head>
 <body>
   <div class="container">
-    <h1>Main Website</h1>
-    <p>This is the main website. Choose where you want to go:</p>
-    <a href="https://example.com" class="btn">Website 1</a>
-    <a href="https://example.org" class="btn">Website 2</a>
-    <button onclick="goBack()" class="btn">Back</button>
+    <h1>Major Project Deployment</h1>
+    <h2>Done by:</h2>
+    <p>G CHETAN REDDY (20311A1938)</p>
+    <p>B VENKATRAM REDDY (20311A1945)</p>
+    <p>A SHARANDEEP REDDY (20311A1946)</p>
+    <h2>Heart Disease Classification</h2>
+    <p>Choose an option:</p>
+    <a href="https://group17.streamlit.app/" class="btn">ECG Classification</a>
+    <a href="https://group17web1.streamlit.app/" class="btn">Normal Data</a>
   </div>
 
   <script>
